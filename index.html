@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- WRAPPER / CONTAINER -->
+    <div class="container">
+      <!-- HEADER -->
+      <header>
+        <nav>
+          <a href="/">
+            <img src="./images/white_logo.png" alt="Logo" />
+          </a>
+          <button class="burger">
+            <img src="./icons/menu-bar.png" alt="" />
+          </button>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#discover">About us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#discover">Blog</a></li>
+            <li><a href="#contacts">Contact us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero_section">
+          <img src="./images/header.jpg" alt="" />
+          <div>
+            <span>INTRODUCTION TO</span>
+            <h1>CREATIVE METEOR</h1>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            nostrum minus, deleniti ex totam debitis.
+          </p>
+          <a href="#discover">Discover more</a>
+        </section>
+
+        <!-- ABOUT US -->
+        <section id="discover" class="about_us">
+          <h2>WHAT WE DO</h2>
+          <div>
+            <article>
+              <img src="./icons/first-service-main.png" alt="" />
+              <h3>Customizations</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, et.
+              </p>
+            </article>
+
+            <article>
+              <img src="./icons/second-service-main.png" alt="" />
+              <h3>Creative Ideas</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, et.
+              </p>
+            </article>
+
+            <article>
+              <img src="./icons/third-service-main.png" alt="" />
+              <h3>Good Profit</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, et.
+              </p>
+            </article>
+
+            <article>
+              <img src="./icons/fourth-service-main.png" alt="" />
+              <h3>Open To Public</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, et.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- OFFERS -->
+        <section class="offers_section">
+          <div>
+            <h2>New offers just arrived,<br />Get it now and take profit.</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+              aut animi, eos vel earum laboriosam quas minima corrupti deleniti
+              asperiores.
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+              aut animi, eos vel earum laboriosam quas minima corrupti deleniti
+              asperiores.
+            </p>
+            <div>
+              <a href="#discover">Discover more</a>
+              <a href="./nerastas.html">Purchase now</a>
+            </div>
+          </div>
+          <div>
+            <img src="./images/pancakes.jpg" />
+            <img src="./images/cups.jpg" />
+            <img src="./images/nachos.jpg" />
+          </div>
+        </section>
+
+        <!-- OUR PORTFOLIO -->
+        <section id="portfolio" class="our_portfolio">
+          <h2>OUR PORTFOLIO</h2>
+          <nav>
+            <ul>
+              <li>
+                <a href="./nerastas.html">Nature</a>
+              </li>
+              <li>
+                <a href="./nerastas.html">Workspace</a>
+              </li>
+              <li>
+                <a href="./nerastas.html">City</a>
+              </li>
+              <li>
+                <a href="./nerastas.html">Technology</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div>
+            <img
+              src="./images/portfolio_big_01.jpg"
+              alt="Work desk with a computer"
+            />
+            <img
+              src="./images/portfolio_big_02.jpg"
+              alt="City in the evening from the sky"
+            />
+            <img
+              src="./images/portfolio_big_03.jpg"
+              alt="A man hiking at winter"
+            />
+            <img
+              src="./images/portfolio_big_04.jpg"
+              alt="Action figure standing under a light bulb"
+            />
+          </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contacts" class="contact_section">
+          <h2>CONTACT US</h2>
+          <form action="/action_page.php">
+            <div>
+              <input type="text" id="fname" placeholder="Your name..." />
+
+              <input type="email" id="mail" placeholder="Your email..." />
+            </div>
+
+            <textarea id="subject" placeholder="Your message..."></textarea>
+
+            <button type="submit">SEND MESSAGE</button>
+          </form>
+        </section>
+      </main>
+
+      <!-- FOOTER -->
+      <footer>
+        <p>Copyright © 2017 Company Name - Design: <a href="#">Meteor</a></p>
+        <nav>
+          <ul>
+            <li>
+              <a href="./nerastas.html"
+                ><i class="fa-brands fa-2xl fa-facebook"></i
+              ></a>
+              <a href="./nerastas.html"
+                ><i class="fa-brands fa-2xl fa-facebook"></i
+              ></a>
+              <a href="./nerastas.html"
+                ><i class="fa-brands fa-2xl fa-facebook"></i
+              ></a>
+              <a href="./nerastas.html"
+                ><i class="fa-brands fa-2xl fa-facebook"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
